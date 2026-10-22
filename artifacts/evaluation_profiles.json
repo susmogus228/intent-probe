@@ -1,0 +1,5042 @@
+[
+  {
+    "profile_id": "profile-e51003b339225f3d",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "language",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "language",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-e51003b339225f3d",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "language",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "unknown",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "language",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-c2de37fac7f6ce76",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-c2de37fac7f6ce76",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "unknown",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-b928ea76a7851c7f",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-b928ea76a7851c7f",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-0dae6959b07311da",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "tabular",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "tabular",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-0dae6959b07311da",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "tabular",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "unknown",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "tabular",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-a0e7b82f3a080aac",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "vision",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "vision",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-a0e7b82f3a080aac",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "vision",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "vision",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-a986c1fab7da832b",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "balanced",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "science",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "science",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-a986c1fab7da832b",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "balanced",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "science",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "science",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-fec1e880889276dd",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "month",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "tabular",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "tabular",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-fec1e880889276dd",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "month",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "tabular",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "unknown",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "tabular",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-70600f048a71f631",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "vision",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "vision",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-70600f048a71f631",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "vision",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "unknown",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "vision",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-d8dbaf0469c2c031",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "balanced",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-d8dbaf0469c2c031",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "balanced",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-bfa0167e7ca52377",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "vision",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "vision",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-bfa0167e7ca52377",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "vision",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "unknown",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-0eab1c9f17c06a5e",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "vision",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "vision",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-0eab1c9f17c06a5e",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "vision",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "unknown",
+      "domain": "vision",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-c685a1cdac3fe42c",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "balanced",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "science",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "science",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-c685a1cdac3fe42c",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "balanced",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "science",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "science",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-b9a84e9ff150c073",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "month",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "systems",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "systems",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-b9a84e9ff150c073",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "month",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "systems",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "cloud_gpu",
+      "experience": "unknown",
+      "domain": "systems",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-ca97a3b51f91500a",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "tabular",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "tabular",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-ca97a3b51f91500a",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "tabular",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "unknown",
+      "experience": "beginner",
+      "domain": "tabular",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-cb71870d624aafce",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "vision",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "vision",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-cb71870d624aafce",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "vision",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "vision",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-67395b3a57b17f9f",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "systems",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "systems",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-67395b3a57b17f9f",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "systems",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "systems",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-47322893312a8d49",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "month",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "vision",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "vision",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-47322893312a8d49",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "month",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "vision",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "cloud_gpu",
+      "experience": "unknown",
+      "domain": "vision",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-8ed4a98070a5c696",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "balanced",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "tabular",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "tabular",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-8ed4a98070a5c696",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "balanced",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "tabular",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "tabular",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-8c81809352fba75f",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "vision",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "vision",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-8c81809352fba75f",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "vision",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "vision",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-831ffffe851f7279",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "tabular",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "tabular",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-831ffffe851f7279",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "tabular",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "unknown",
+      "domain": "tabular",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-4d966d4ee88ced62",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "tabular",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "tabular",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-4d966d4ee88ced62",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "tabular",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "tabular",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-7d3ca4615fd9cb0f",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "systems",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "systems",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-7d3ca4615fd9cb0f",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "systems",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "unknown",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "systems",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-ed5d2cc208b7a6c9",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "local_gpu",
+      "experience": "intermediate",
+      "domain": "systems",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "local_gpu",
+      "experience": "intermediate",
+      "domain": "systems",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-ed5d2cc208b7a6c9",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "local_gpu",
+      "experience": "intermediate",
+      "domain": "systems",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "local_gpu",
+      "experience": "intermediate",
+      "domain": "systems",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-50499453f4d05fc7",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-50499453f4d05fc7",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-d35702d8eb673854",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "systems",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "systems",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-d35702d8eb673854",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "systems",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "systems",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-3be448042b76fbb7",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "science",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "science",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-3be448042b76fbb7",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "science",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "unknown",
+      "experience": "advanced",
+      "domain": "science",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-7c883897213b8a83",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "balanced",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "vision",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "vision",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-7c883897213b8a83",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "balanced",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "vision",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "vision",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-536a581d95d31bae",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-536a581d95d31bae",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-40139d6485b6fed2",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "language",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "language",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-40139d6485b6fed2",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "language",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "cloud_gpu",
+      "experience": "unknown",
+      "domain": "language",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-87cfb23963f54056",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "balanced",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "language",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "language",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-87cfb23963f54056",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "balanced",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "language",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "language",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-158c3b981cf27912",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "science",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "science",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-158c3b981cf27912",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "science",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "unknown",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-1d23ce1d9b889658",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "month",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "science",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "science",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-1d23ce1d9b889658",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "month",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "science",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "science",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-5f20e370a75253cc",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "tabular",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "tabular",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-5f20e370a75253cc",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "tabular",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "tabular",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-417e00da4d72afcd",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "vision",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "vision",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-417e00da4d72afcd",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "vision",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "unknown",
+      "experience": "intermediate",
+      "domain": "vision",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-83b6b2528fb3c354",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "systems",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "systems",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-83b6b2528fb3c354",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "systems",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "unknown",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-2b81a98c8f6abc29",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "vision",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "vision",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-2b81a98c8f6abc29",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "vision",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "vision",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-e1d994f4bedad317",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "month",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "science",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "science",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-e1d994f4bedad317",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "month",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "science",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "unknown",
+      "experience": "intermediate",
+      "domain": "science",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-5203b20c44f6267d",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "systems",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "systems",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-5203b20c44f6267d",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "systems",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "unknown",
+      "domain": "systems",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-0b626f489fe6c333",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "month",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "systems",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "systems",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-0b626f489fe6c333",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "month",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "systems",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "systems",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-58b5d4d91cadc6a4",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "month",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "systems",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "systems",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-58b5d4d91cadc6a4",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "month",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "systems",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "unknown",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-95e5392762309258",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "vision",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "vision",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-95e5392762309258",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "vision",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "unknown",
+      "experience": "advanced",
+      "domain": "vision",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-006ce18849baf9a2",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "balanced",
+    "hidden": {
+      "time": "month",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "science",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "science",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-006ce18849baf9a2",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "balanced",
+    "hidden": {
+      "time": "month",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "science",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "local_gpu",
+      "experience": "intermediate",
+      "domain": "science",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-f2dae58b743bee20",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "vision",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "vision",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-f2dae58b743bee20",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "vision",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "unknown",
+      "domain": "vision",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-c65c4f177a37d8ac",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "tabular",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "tabular",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-c65c4f177a37d8ac",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "tabular",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "unknown",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-16c6da4636eac376",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "balanced",
+    "hidden": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "language",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "language",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-16c6da4636eac376",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "balanced",
+    "hidden": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "language",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "intermediate",
+      "domain": "language",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-89e0170684e3819e",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "local_gpu",
+      "experience": "intermediate",
+      "domain": "systems",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "local_gpu",
+      "experience": "intermediate",
+      "domain": "systems",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-89e0170684e3819e",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "local_gpu",
+      "experience": "intermediate",
+      "domain": "systems",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "unknown",
+      "hardware": "local_gpu",
+      "experience": "intermediate",
+      "domain": "systems",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-c20b8189e6607325",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "science",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "science",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-c20b8189e6607325",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "science",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "science",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-a55c91806c0ea584",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "balanced",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "tabular",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "tabular",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-a55c91806c0ea584",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "balanced",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "tabular",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "tabular",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-670bc8db5d43ce84",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "month",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "tabular",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "tabular",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-670bc8db5d43ce84",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "month",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "tabular",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "unknown",
+      "experience": "advanced",
+      "domain": "tabular",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-18d38dbf687f67f7",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "language",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "language",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-18d38dbf687f67f7",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "language",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "unknown",
+      "experience": "intermediate",
+      "domain": "language",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-db259f090f21e280",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "balanced",
+    "hidden": {
+      "time": "month",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-db259f090f21e280",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "balanced",
+    "hidden": {
+      "time": "month",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-f59b3408684c7c8d",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "local_gpu",
+      "experience": "intermediate",
+      "domain": "tabular",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "local_gpu",
+      "experience": "intermediate",
+      "domain": "tabular",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-f59b3408684c7c8d",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "local_gpu",
+      "experience": "intermediate",
+      "domain": "tabular",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "unknown",
+      "hardware": "local_gpu",
+      "experience": "intermediate",
+      "domain": "tabular",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-3bd9a93a8ce4b6ff",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-3bd9a93a8ce4b6ff",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "unknown",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-f28579d00620a79d",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "month",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-f28579d00620a79d",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "month",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-ee10766f0c7a51d3",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-ee10766f0c7a51d3",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "unknown",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-4a3443989f787778",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-4a3443989f787778",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "unknown",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-64706f1c5f5756b2",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "month",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "systems",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "systems",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-64706f1c5f5756b2",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "month",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "systems",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "systems",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-d78196dd638351ea",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "science",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "science",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-d78196dd638351ea",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "science",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "unknown",
+      "experience": "advanced",
+      "domain": "science",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-07aee4fd5588edbe",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "systems",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "systems",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-07aee4fd5588edbe",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "systems",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "unknown",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "systems",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-509f9dd4a5135b08",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "vision",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "vision",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-509f9dd4a5135b08",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "vision",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "vision",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-0890050727727829",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "science",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "science",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-0890050727727829",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "science",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "unknown",
+      "domain": "science",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-7e6f6b268805b067",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "tabular",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "tabular",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-7e6f6b268805b067",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "tabular",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "unknown",
+      "experience": "beginner",
+      "domain": "tabular",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-425bad9c7ed4fb0f",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "balanced",
+    "hidden": {
+      "time": "month",
+      "hardware": "local_gpu",
+      "experience": "intermediate",
+      "domain": "systems",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "local_gpu",
+      "experience": "intermediate",
+      "domain": "systems",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-425bad9c7ed4fb0f",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "balanced",
+    "hidden": {
+      "time": "month",
+      "hardware": "local_gpu",
+      "experience": "intermediate",
+      "domain": "systems",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "systems",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-8ab5becb74d1c336",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-8ab5becb74d1c336",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "unknown",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-e2ed14bac9384634",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "systems",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "systems",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-e2ed14bac9384634",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "systems",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "unknown",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-75f568f5b5cff420",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "local_gpu",
+      "experience": "intermediate",
+      "domain": "tabular",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "local_gpu",
+      "experience": "intermediate",
+      "domain": "tabular",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-75f568f5b5cff420",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "local_gpu",
+      "experience": "intermediate",
+      "domain": "tabular",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "tabular",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-e3b2dbab82b3fde6",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "vision",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "vision",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-e3b2dbab82b3fde6",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "vision",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "unknown",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "vision",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-b9d551450c2a60e6",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "tabular",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "tabular",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-b9d551450c2a60e6",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "tabular",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "unknown",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-27ec8e652362a6a4",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "systems",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "systems",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-27ec8e652362a6a4",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "systems",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "local_gpu",
+      "experience": "intermediate",
+      "domain": "systems",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-bb99f9e5758be095",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "science",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "science",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-bb99f9e5758be095",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "science",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "science",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-1531801ec7e70fd5",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-1531801ec7e70fd5",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "unknown",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-7acf3e2a319417a5",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "balanced",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "tabular",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "tabular",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-7acf3e2a319417a5",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "balanced",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "tabular",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "local_gpu",
+      "experience": "intermediate",
+      "domain": "tabular",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-795b9967459f5517",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "vision",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "vision",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-795b9967459f5517",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "vision",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "unknown",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "vision",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-d46a182429a3da69",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-d46a182429a3da69",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "unknown",
+      "domain": "language",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-6cc4ca923d85b778",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "systems",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "systems",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-6cc4ca923d85b778",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "systems",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "systems",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-a0d5d969993f733b",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "science",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "science",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-a0d5d969993f733b",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "science",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "unknown",
+      "domain": "science",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-8742c65a74a3c1da",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "month",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "science",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "science",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-8742c65a74a3c1da",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "month",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "science",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "unknown",
+      "experience": "advanced",
+      "domain": "science",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-9ba926cb5fd35f97",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "balanced",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-9ba926cb5fd35f97",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "balanced",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-5d0241a5fe97242e",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "month",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "vision",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "vision",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-5d0241a5fe97242e",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "month",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "vision",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "vision",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-bde31820aa489eb3",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "month",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "systems",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "systems",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-bde31820aa489eb3",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "month",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "systems",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "unknown",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "systems",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-a8004bb1c505e5ad",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "language",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "language",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-a8004bb1c505e5ad",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "cloud_gpu",
+      "experience": "intermediate",
+      "domain": "language",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "language",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-b9a712350a0b7689",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "vision",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "vision",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-b9a712350a0b7689",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "vision",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "cloud_gpu",
+      "experience": "unknown",
+      "domain": "vision",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-58e3461275d40443",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "science",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "science",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-58e3461275d40443",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "science",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "unknown",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "science",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-d941138a3e2e9786",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "science",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "science",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-d941138a3e2e9786",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "science",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "science",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-684171c1189e8d27",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "science",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "science",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-684171c1189e8d27",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "science",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "unknown",
+      "experience": "intermediate",
+      "domain": "science",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-cc60abe005c6b5dc",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "language",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "language",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-cc60abe005c6b5dc",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "language",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "unknown",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-a604b44d02618fb9",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "balanced",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "local_gpu",
+      "experience": "intermediate",
+      "domain": "science",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "local_gpu",
+      "experience": "intermediate",
+      "domain": "science",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-a604b44d02618fb9",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "balanced",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "local_gpu",
+      "experience": "intermediate",
+      "domain": "science",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "science",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-187235f71761df93",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "tabular",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "tabular",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-187235f71761df93",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "tabular",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "unknown",
+      "domain": "tabular",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-b9bf70189de0e52a",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "systems",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "systems",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-b9bf70189de0e52a",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "systems",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "unknown",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "systems",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-0a77948ccec942e3",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "balanced",
+    "hidden": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-0a77948ccec942e3",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "balanced",
+    "hidden": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-0546442265eb4f00",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "systems",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "systems",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-0546442265eb4f00",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "systems",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "unknown",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-a7e68623c4a247b7",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "month",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "science",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "science",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-a7e68623c4a247b7",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "month",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "science",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "science",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-b581e598c23611f3",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "tabular",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "tabular",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-b581e598c23611f3",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "tabular",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "intermediate",
+      "domain": "tabular",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-4711bfe8668479d6",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "systems",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "systems",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-4711bfe8668479d6",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "systems",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "unknown",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "systems",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-018d08e52d90ca45",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "month",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-018d08e52d90ca45",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "month",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "unknown",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-4670f0ca1d20849f",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "month",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "vision",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "vision",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-4670f0ca1d20849f",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "month",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "vision",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "vision",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-8cdb7861fab66b61",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "tabular",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "tabular",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-8cdb7861fab66b61",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "tabular",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "unknown",
+      "experience": "beginner",
+      "domain": "tabular",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-16a1b10517881b3b",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "systems",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "systems",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-16a1b10517881b3b",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "systems",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "systems",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-779ad4f9841950e8",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-779ad4f9841950e8",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-77352556a8d9f072",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "vision",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "vision",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-77352556a8d9f072",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "week",
+      "hardware": "cloud_gpu",
+      "experience": "beginner",
+      "domain": "vision",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "unknown",
+      "experience": "beginner",
+      "domain": "vision",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-e2a47d0f4646a6db",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-e2a47d0f4646a6db",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "unknown",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-4404cea78602e240",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "science",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "science",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-4404cea78602e240",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "science",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "science",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-55fe63d8c2408219",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "language",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "language",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-55fe63d8c2408219",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "language",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "unknown",
+      "domain": "language",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-3497299adfd15919",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-3497299adfd15919",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "unknown",
+      "domain": "language",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-f1d21f94ea7c8c1a",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "balanced",
+    "hidden": {
+      "time": "month",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "vision",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "vision",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-f1d21f94ea7c8c1a",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "balanced",
+    "hidden": {
+      "time": "month",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "vision",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "vision",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-67fe687234efc2ea",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "month",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "tabular",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "tabular",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-67fe687234efc2ea",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "month",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "tabular",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "unknown",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-f0466d4c8ccccd6a",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "month",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "systems",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "systems",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-f0466d4c8ccccd6a",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "month",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "systems",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "local_gpu",
+      "experience": "unknown",
+      "domain": "systems",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-a60fe56280a7260a",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "month",
+      "hardware": "local_gpu",
+      "experience": "intermediate",
+      "domain": "tabular",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "local_gpu",
+      "experience": "intermediate",
+      "domain": "tabular",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-a60fe56280a7260a",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "month",
+      "hardware": "local_gpu",
+      "experience": "intermediate",
+      "domain": "tabular",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "tabular",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-88cdd75454bf5eae",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "vision",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "vision",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-88cdd75454bf5eae",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "vision",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "unknown",
+      "domain": "vision",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-74f86542d90e31fc",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "tabular",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "tabular",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-74f86542d90e31fc",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "tabular",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "unknown",
+      "experience": "advanced",
+      "domain": "tabular",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-b2c920ef40de33b9",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "tabular",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "tabular",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-b2c920ef40de33b9",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "tabular",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "tabular",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-11b64e41cf874c46",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "systems",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "systems",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-11b64e41cf874c46",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "systems",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "systems",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-5154018ef7531f51",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "month",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "systems",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "systems",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-5154018ef7531f51",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "month",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "systems",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "unknown",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "systems",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-9e32a5baf7f85251",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "balanced",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-9e32a5baf7f85251",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "balanced",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-dab78f3c35eba2a0",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "month",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "science",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "science",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-dab78f3c35eba2a0",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "specialist",
+    "hidden": {
+      "time": "month",
+      "hardware": "cpu",
+      "experience": "intermediate",
+      "domain": "science",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "cpu",
+      "experience": "unknown",
+      "domain": "science",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-0d1ed215ac9b5ecd",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "science",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "science",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-0d1ed215ac9b5ecd",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "science",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "week",
+      "hardware": "local_gpu",
+      "experience": "advanced",
+      "domain": "science",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-8b694e1f9036b5a7",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "balanced",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-8b694e1f9036b5a7",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "balanced",
+    "hidden": {
+      "time": "quarter",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "quarter",
+      "hardware": "cpu",
+      "experience": "beginner",
+      "domain": "language",
+      "goal": "unknown"
+    }
+  },
+  {
+    "profile_id": "profile-b81f53de37a805da",
+    "variant": "clean",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "vision",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "vision",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-b81f53de37a805da",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "in_distribution",
+    "family": "balanced",
+    "hidden": {
+      "time": "weekend",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "vision",
+      "goal": "learning"
+    },
+    "answers": {
+      "time": "weekend",
+      "hardware": "local_gpu",
+      "experience": "beginner",
+      "domain": "unknown",
+      "goal": "learning"
+    }
+  },
+  {
+    "profile_id": "profile-35fcba60f3afa353",
+    "variant": "clean",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "month",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-35fcba60f3afa353",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "preference_shift",
+    "family": "interaction",
+    "hidden": {
+      "time": "month",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "research"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "unknown",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "research"
+    }
+  },
+  {
+    "profile_id": "profile-36da1d02ca2c7201",
+    "variant": "clean",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "month",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "practical"
+    }
+  },
+  {
+    "profile_id": "profile-36da1d02ca2c7201",
+    "variant": "uncertain",
+    "split": "test",
+    "condition": "answer_noise",
+    "family": "specialist",
+    "hidden": {
+      "time": "month",
+      "hardware": "cloud_gpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "practical"
+    },
+    "answers": {
+      "time": "month",
+      "hardware": "cpu",
+      "experience": "advanced",
+      "domain": "language",
+      "goal": "unknown"
+    }
+  }
+]

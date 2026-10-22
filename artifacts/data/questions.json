@@ -1,0 +1,137 @@
+[
+  {
+    "id": "time",
+    "title": "How much time can you commit?",
+    "description": "A hard limit on the brief's estimated scope, not a delivery guarantee.",
+    "options": [
+      {
+        "value": "weekend",
+        "label": "One weekend"
+      },
+      {
+        "value": "week",
+        "label": "About one week"
+      },
+      {
+        "value": "month",
+        "label": "About four weeks"
+      },
+      {
+        "value": "quarter",
+        "label": "About twelve weeks"
+      },
+      {
+        "value": "unknown",
+        "label": "I do not know yet"
+      }
+    ]
+  },
+  {
+    "id": "hardware",
+    "title": "What hardware can you use?",
+    "description": "Exclude briefs requiring hardware you cannot access.",
+    "options": [
+      {
+        "value": "cpu",
+        "label": "CPU laptop only"
+      },
+      {
+        "value": "local_gpu",
+        "label": "Local GPU"
+      },
+      {
+        "value": "cloud_gpu",
+        "label": "Cloud GPU"
+      },
+      {
+        "value": "unknown",
+        "label": "I do not know yet"
+      }
+    ]
+  },
+  {
+    "id": "experience",
+    "title": "What is your current ML experience?",
+    "description": "Use your current experience as a hard prerequisite ceiling.",
+    "options": [
+      {
+        "value": "beginner",
+        "label": "Beginning ML"
+      },
+      {
+        "value": "intermediate",
+        "label": "Have trained models"
+      },
+      {
+        "value": "advanced",
+        "label": "Comfortable with research experiments"
+      },
+      {
+        "value": "unknown",
+        "label": "I do not know yet"
+      }
+    ]
+  },
+  {
+    "id": "domain",
+    "title": "Which kind of problem interests you?",
+    "description": "A soft preference; alternatives remain visible.",
+    "options": [
+      {
+        "value": "tabular",
+        "label": "Structured data"
+      },
+      {
+        "value": "language",
+        "label": "Language"
+      },
+      {
+        "value": "vision",
+        "label": "Images"
+      },
+      {
+        "value": "systems",
+        "label": "ML systems"
+      },
+      {
+        "value": "science",
+        "label": "Scientific ML"
+      },
+      {
+        "value": "unknown",
+        "label": "I do not know yet"
+      },
+      {
+        "value": "indifferent",
+        "label": "No preference"
+      }
+    ]
+  },
+  {
+    "id": "goal",
+    "title": "What should the project demonstrate?",
+    "description": "A soft preference for an applied, research or learning outcome.",
+    "options": [
+      {
+        "value": "practical",
+        "label": "A practical application"
+      },
+      {
+        "value": "research",
+        "label": "An experimental finding"
+      },
+      {
+        "value": "learning",
+        "label": "A clear learning exercise"
+      },
+      {
+        "value": "unknown",
+        "label": "I do not know yet"
+      },
+      {
+        "value": "indifferent",
+        "label": "No preference"
+      }
+    ]
+  }
+]

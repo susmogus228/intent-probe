@@ -1,0 +1,7 @@
+* text=auto eol=lf
+
+# Preserve artifact bytes and their recorded SHA-256 values across platforms.
+artifacts/** -text
+*.joblib binary
+*.npz binary
+*.png binary

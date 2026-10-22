@@ -1,0 +1,302 @@
+[
+  {
+    "id": "table-quality",
+    "title": "Table quality auditor",
+    "summary": "Detect and explain suspicious cells with a small trained anomaly model.",
+    "weeks": 1,
+    "hardware_level": 0,
+    "experience_level": 0,
+    "domain": "tabular",
+    "goal": "practical",
+    "tags": [
+      "tabular",
+      "practical",
+      "CPU"
+    ]
+  },
+  {
+    "id": "churn-audit",
+    "title": "Churn model audit",
+    "summary": "Train a compact churn classifier and study calibration and subgroup errors.",
+    "weeks": 4,
+    "hardware_level": 0,
+    "experience_level": 1,
+    "domain": "tabular",
+    "goal": "research",
+    "tags": [
+      "tabular",
+      "research",
+      "CPU"
+    ]
+  },
+  {
+    "id": "price-basics",
+    "title": "Price prediction notebook",
+    "summary": "Build a reproducible regression study with leakage-aware evaluation.",
+    "weeks": 1,
+    "hardware_level": 0,
+    "experience_level": 0,
+    "domain": "tabular",
+    "goal": "learning",
+    "tags": [
+      "tabular",
+      "learning",
+      "CPU"
+    ]
+  },
+  {
+    "id": "causal-shift",
+    "title": "Tabular shift stress test",
+    "summary": "Compare predictive models under controlled changes in data collection.",
+    "weeks": 12,
+    "hardware_level": 0,
+    "experience_level": 2,
+    "domain": "tabular",
+    "goal": "research",
+    "tags": [
+      "tabular",
+      "research",
+      "CPU"
+    ]
+  },
+  {
+    "id": "ticket-router",
+    "title": "Support ticket router",
+    "summary": "Train a local text router with an explicit low-confidence review queue.",
+    "weeks": 4,
+    "hardware_level": 0,
+    "experience_level": 1,
+    "domain": "language",
+    "goal": "practical",
+    "tags": [
+      "language",
+      "practical",
+      "CPU"
+    ]
+  },
+  {
+    "id": "text-basics",
+    "title": "Text feature laboratory",
+    "summary": "Compare word and character features on a small labeled corpus.",
+    "weeks": 1,
+    "hardware_level": 0,
+    "experience_level": 0,
+    "domain": "language",
+    "goal": "learning",
+    "tags": [
+      "language",
+      "learning",
+      "CPU"
+    ]
+  },
+  {
+    "id": "intent-shift",
+    "title": "Intent drift study",
+    "summary": "Measure how a classifier changes under vocabulary and domain shifts.",
+    "weeks": 4,
+    "hardware_level": 0,
+    "experience_level": 1,
+    "domain": "language",
+    "goal": "research",
+    "tags": [
+      "language",
+      "research",
+      "CPU"
+    ]
+  },
+  {
+    "id": "small-transformer",
+    "title": "Small language adapter",
+    "summary": "Fine-tune a small pretrained encoder and audit transfer to a new domain.",
+    "weeks": 12,
+    "hardware_level": 1,
+    "experience_level": 2,
+    "domain": "language",
+    "goal": "research",
+    "tags": [
+      "language",
+      "research",
+      "GPU"
+    ]
+  },
+  {
+    "id": "image-inspector",
+    "title": "Image inspection queue",
+    "summary": "Fine-tune a small image model and route unfamiliar inputs for review.",
+    "weeks": 4,
+    "hardware_level": 1,
+    "experience_level": 1,
+    "domain": "vision",
+    "goal": "practical",
+    "tags": [
+      "vision",
+      "practical",
+      "GPU"
+    ]
+  },
+  {
+    "id": "image-features",
+    "title": "Image feature notebook",
+    "summary": "Compare compact image descriptors using small reproducible datasets.",
+    "weeks": 1,
+    "hardware_level": 0,
+    "experience_level": 0,
+    "domain": "vision",
+    "goal": "learning",
+    "tags": [
+      "vision",
+      "learning",
+      "CPU"
+    ]
+  },
+  {
+    "id": "vision-corruption",
+    "title": "Vision corruption study",
+    "summary": "Evaluate calibration and selective prediction under image corruptions.",
+    "weeks": 12,
+    "hardware_level": 1,
+    "experience_level": 2,
+    "domain": "vision",
+    "goal": "research",
+    "tags": [
+      "vision",
+      "research",
+      "GPU"
+    ]
+  },
+  {
+    "id": "camera-triage",
+    "title": "Camera event triage",
+    "summary": "Train a lightweight image-event classifier with error inspection.",
+    "weeks": 4,
+    "hardware_level": 1,
+    "experience_level": 1,
+    "domain": "vision",
+    "goal": "practical",
+    "tags": [
+      "vision",
+      "practical",
+      "GPU"
+    ]
+  },
+  {
+    "id": "latency-policy",
+    "title": "Inference routing policy",
+    "summary": "Learn when a request should use a cheap model or a stronger local model.",
+    "weeks": 4,
+    "hardware_level": 0,
+    "experience_level": 1,
+    "domain": "systems",
+    "goal": "practical",
+    "tags": [
+      "systems",
+      "practical",
+      "CPU"
+    ]
+  },
+  {
+    "id": "cache-study",
+    "title": "Learned cache experiment",
+    "summary": "Compare a learned reuse score with conventional cache policies.",
+    "weeks": 12,
+    "hardware_level": 0,
+    "experience_level": 2,
+    "domain": "systems",
+    "goal": "research",
+    "tags": [
+      "systems",
+      "research",
+      "CPU"
+    ]
+  },
+  {
+    "id": "ml-packaging",
+    "title": "Model serving starter",
+    "summary": "Train and package a simple predictor with tests and provenance.",
+    "weeks": 1,
+    "hardware_level": 0,
+    "experience_level": 0,
+    "domain": "systems",
+    "goal": "learning",
+    "tags": [
+      "systems",
+      "learning",
+      "CPU"
+    ]
+  },
+  {
+    "id": "monitoring-study",
+    "title": "Model drift monitor",
+    "summary": "Train a shift detector and evaluate false alarms against a fixed baseline.",
+    "weeks": 4,
+    "hardware_level": 0,
+    "experience_level": 1,
+    "domain": "systems",
+    "goal": "research",
+    "tags": [
+      "systems",
+      "research",
+      "CPU"
+    ]
+  },
+  {
+    "id": "sensor-anomaly",
+    "title": "Sensor anomaly triage",
+    "summary": "Learn normal multivariate sensor behavior and inspect unusual windows.",
+    "weeks": 4,
+    "hardware_level": 0,
+    "experience_level": 1,
+    "domain": "science",
+    "goal": "practical",
+    "tags": [
+      "science",
+      "practical",
+      "CPU"
+    ]
+  },
+  {
+    "id": "signal-basics",
+    "title": "Signal classification notebook",
+    "summary": "Compare features and small classifiers on labeled sensor windows.",
+    "weeks": 1,
+    "hardware_level": 0,
+    "experience_level": 0,
+    "domain": "science",
+    "goal": "learning",
+    "tags": [
+      "science",
+      "learning",
+      "CPU"
+    ]
+  },
+  {
+    "id": "surrogate-study",
+    "title": "Scientific surrogate study",
+    "summary": "Train a compact surrogate and measure failure outside its training range.",
+    "weeks": 12,
+    "hardware_level": 1,
+    "experience_level": 2,
+    "domain": "science",
+    "goal": "research",
+    "tags": [
+      "science",
+      "research",
+      "GPU"
+    ]
+  },
+  {
+    "id": "uncertainty-lab",
+    "title": "Scientific uncertainty lab",
+    "summary": "Compare uncertainty estimates on a controlled physical simulator.",
+    "weeks": 4,
+    "hardware_level": 0,
+    "experience_level": 1,
+    "domain": "science",
+    "goal": "research",
+    "tags": [
+      "science",
+      "research",
+      "CPU"
+    ]
+  }
+]

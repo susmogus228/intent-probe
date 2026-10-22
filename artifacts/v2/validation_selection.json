@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "id": 0,
+      "config": {
+        "n_estimators": 80,
+        "max_depth": 18,
+        "min_samples_leaf": 3
+      },
+      "validation_mae": 0.23843509595624507,
+      "validation_objective_with_cost": 0.19426249999999998,
+      "validation_violation_rate": 0.06875,
+      "validation_regret": 0.13828125
+    },
+    {
+      "id": 1,
+      "config": {
+        "n_estimators": 120,
+        "max_depth": 22,
+        "min_samples_leaf": 2
+      },
+      "validation_mae": 0.24249168600580645,
+      "validation_objective_with_cost": 0.1892125,
+      "validation_violation_rate": 0.06875,
+      "validation_regret": 0.131640625
+    }
+  ],
+  "selected_id": 1,
+  "test_used_for_selection": false,
+  "group_cv": "Not run; one fixed vector-disjoint validation split and two preregistered configurations."
+}

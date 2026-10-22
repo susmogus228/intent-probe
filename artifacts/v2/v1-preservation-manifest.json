@@ -1,0 +1,12 @@
+{
+  "benchmark.json": "00090f15e102351e31c2b5105943b22552316e9b7547592d95d67ef48113ac33",
+  "data/catalog.json": "e23ce4e5f0e51e23f858c4212535d209d2c0429c22e04554b3a047632bf34ed3",
+  "data/profiles.jsonl": "b6705fcafe58eb5aaa8a1a6449413fc18dc7b7ddf07019fcb9ecf3c01c298953",
+  "data/questions.json": "5eed1707ac451c5e2b86cd7bca632f76f9bbf38de46fa75f2a86d4a4e461f505",
+  "data/split_manifest.json": "72474c574fb260bae87fc55cb03d11f19b96453dba6bcff2e5212afbed41d8c7",
+  "data/training_rows.npz": "5da9d2810228c3ef776eb38fca124edfbae448ffb78aac124b805561abb2923c",
+  "data/validation_rows.npz": "d3d6069a4c3685b53f057f5dc51608170ccfb0154429a73d0ecf481f9be24e31",
+  "evaluation_profiles.json": "930cfc6a18db5d7b575f6ff714a85f8cea11002af4cb68eb4a6dbe50c953b1b9",
+  "metadata.json": "b98268c9a9ac330a326b8d7142b7cf61cee1a20f901793c9c19a6286d7996f64",
+  "question_value.joblib": "d1f76dcadd0b20c5f60406c50afd950c5ae1638a3c52cf7bce98b78d3275afa3"
+}

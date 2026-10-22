@@ -1,0 +1,1210 @@
+{
+  "generated_at": "2026-10-22T11:37:31.772911+00:00",
+  "model_version": "intentprobe-question-value-1.0",
+  "model_artifact_sha256": "d1f76dcadd0b20c5f60406c50afd950c5ae1638a3c52cf7bce98b78d3275afa3",
+  "test_records_sha256": "63d743b92e774e350071ba568f1f0f33d32867523729f858453459fdbfbe125f",
+  "scope": "Controlled synthetic profiles only. Primary regret at budget 3 on profiles with at least one feasible brief; lower is better.",
+  "policies": [
+    {
+      "id": "learned",
+      "label": "Learned question value",
+      "mean_regret": 0.1169736842105263,
+      "ci_low": 0.07170394736842105,
+      "ci_high": 0.16015789473684208,
+      "mean_total_loss": 0.12537368421052633,
+      "total_loss_ci_low": 0.07993578947368421,
+      "total_loss_ci_high": 0.16887513157894735,
+      "mean_questions": 1.4208333333333334,
+      "mean_questions_feasible": 1.4,
+      "constraint_violation_rate": 0.225,
+      "optimal_recommendation_rate": 0.7368421052631579,
+      "no_feasible_detection_rate": 0.04
+    },
+    {
+      "id": "analytic",
+      "label": "Analytic decision value",
+      "mean_regret": 0.11776315789473685,
+      "ci_low": 0.07313486842105263,
+      "ci_high": 0.16094078947368418,
+      "mean_total_loss": 0.12556315789473688,
+      "total_loss_ci_low": 0.0806830263157895,
+      "total_loss_ci_high": 0.16864302631578942,
+      "mean_questions": 1.3083333333333333,
+      "mean_questions_feasible": 1.3,
+      "constraint_violation_rate": 0.23333333333333334,
+      "optimal_recommendation_rate": 0.7315789473684211,
+      "no_feasible_detection_rate": 0.0
+    },
+    {
+      "id": "information_gain",
+      "label": "Information gain",
+      "mean_regret": 0.10973684210526315,
+      "ci_low": 0.06788815789473684,
+      "ci_high": 0.15399999999999997,
+      "mean_total_loss": 0.1277368421052632,
+      "total_loss_ci_low": 0.08588815789473687,
+      "total_loss_ci_high": 0.17200000000000001,
+      "mean_questions": 2.7958333333333334,
+      "mean_questions_feasible": 3.0,
+      "constraint_violation_rate": 0.004166666666666667,
+      "optimal_recommendation_rate": 0.7421052631578947,
+      "no_feasible_detection_rate": 0.98
+    },
+    {
+      "id": "fixed",
+      "label": "Fixed questionnaire",
+      "mean_regret": 0.49855263157894747,
+      "ci_low": 0.4420921052631579,
+      "ci_high": 0.5533026315789474,
+      "mean_total_loss": 0.5165526315789474,
+      "total_loss_ci_low": 0.4600921052631579,
+      "total_loss_ci_high": 0.5713026315789475,
+      "mean_questions": 2.591666666666667,
+      "mean_questions_feasible": 3.0,
+      "constraint_violation_rate": 0.004166666666666667,
+      "optimal_recommendation_rate": 0.1631578947368421,
+      "no_feasible_detection_rate": 0.98
+    },
+    {
+      "id": "random",
+      "label": "Random valid question",
+      "mean_regret": 0.2231578947368421,
+      "ci_low": 0.1800756578947369,
+      "ci_high": 0.27212499999999995,
+      "mean_total_loss": 0.24115789473684215,
+      "total_loss_ci_low": 0.19807565789473694,
+      "total_loss_ci_high": 0.29012499999999997,
+      "mean_questions": 2.8541666666666665,
+      "mean_questions_feasible": 3.0,
+      "constraint_violation_rate": 0.11666666666666667,
+      "optimal_recommendation_rate": 0.5684210526315789,
+      "no_feasible_detection_rate": 0.56
+    },
+    {
+      "id": "none",
+      "label": "No clarification",
+      "mean_regret": 0.5447368421052632,
+      "ci_low": 0.4910328947368421,
+      "ci_high": 0.5979078947368421,
+      "mean_total_loss": 0.5447368421052632,
+      "total_loss_ci_low": 0.4910328947368421,
+      "total_loss_ci_high": 0.5979078947368421,
+      "mean_questions": 0.0,
+      "mean_questions_feasible": 0.0,
+      "constraint_violation_rate": 0.20833333333333334,
+      "optimal_recommendation_rate": 0.08421052631578947,
+      "no_feasible_detection_rate": 0.0
+    }
+  ],
+  "curves": [
+    {
+      "policy": "learned",
+      "budget": 0,
+      "mean_regret": 0.5447368421052632,
+      "ci_low": 0.4910328947368421,
+      "ci_high": 0.5979078947368421
+    },
+    {
+      "policy": "learned",
+      "budget": 1,
+      "mean_regret": 0.11105263157894736,
+      "ci_low": 0.06919078947368422,
+      "ci_high": 0.15713815789473684
+    },
+    {
+      "policy": "learned",
+      "budget": 2,
+      "mean_regret": 0.11421052631578947,
+      "ci_low": 0.07105263157894737,
+      "ci_high": 0.15842763157894735
+    },
+    {
+      "policy": "learned",
+      "budget": 3,
+      "mean_regret": 0.1169736842105263,
+      "ci_low": 0.07170394736842105,
+      "ci_high": 0.16015789473684208
+    },
+    {
+      "policy": "learned",
+      "budget": 4,
+      "mean_regret": 0.10736842105263157,
+      "ci_low": 0.0636842105263158,
+      "ci_high": 0.1518421052631579
+    },
+    {
+      "policy": "learned",
+      "budget": 5,
+      "mean_regret": 0.10736842105263157,
+      "ci_low": 0.0636842105263158,
+      "ci_high": 0.1518421052631579
+    },
+    {
+      "policy": "analytic",
+      "budget": 0,
+      "mean_regret": 0.5447368421052632,
+      "ci_low": 0.4910328947368421,
+      "ci_high": 0.5979078947368421
+    },
+    {
+      "policy": "analytic",
+      "budget": 1,
+      "mean_regret": 0.11105263157894736,
+      "ci_low": 0.06919078947368422,
+      "ci_high": 0.15713815789473684
+    },
+    {
+      "policy": "analytic",
+      "budget": 2,
+      "mean_regret": 0.11421052631578947,
+      "ci_low": 0.07105263157894737,
+      "ci_high": 0.15842763157894735
+    },
+    {
+      "policy": "analytic",
+      "budget": 3,
+      "mean_regret": 0.11776315789473685,
+      "ci_low": 0.07313486842105263,
+      "ci_high": 0.16094078947368418
+    },
+    {
+      "policy": "analytic",
+      "budget": 4,
+      "mean_regret": 0.10973684210526315,
+      "ci_low": 0.06972368421052631,
+      "ci_high": 0.15501315789473682
+    },
+    {
+      "policy": "analytic",
+      "budget": 5,
+      "mean_regret": 0.10973684210526315,
+      "ci_low": 0.06972368421052631,
+      "ci_high": 0.15501315789473682
+    },
+    {
+      "policy": "information_gain",
+      "budget": 0,
+      "mean_regret": 0.5447368421052632,
+      "ci_low": 0.4910328947368421,
+      "ci_high": 0.5979078947368421
+    },
+    {
+      "policy": "information_gain",
+      "budget": 1,
+      "mean_regret": 0.11105263157894736,
+      "ci_low": 0.06919078947368422,
+      "ci_high": 0.15713815789473684
+    },
+    {
+      "policy": "information_gain",
+      "budget": 2,
+      "mean_regret": 0.10973684210526315,
+      "ci_low": 0.06788815789473684,
+      "ci_high": 0.15399999999999997
+    },
+    {
+      "policy": "information_gain",
+      "budget": 3,
+      "mean_regret": 0.10973684210526315,
+      "ci_low": 0.06788815789473684,
+      "ci_high": 0.15399999999999997
+    },
+    {
+      "policy": "information_gain",
+      "budget": 4,
+      "mean_regret": 0.0875,
+      "ci_low": 0.057358552631578956,
+      "ci_high": 0.11961513157894736
+    },
+    {
+      "policy": "information_gain",
+      "budget": 5,
+      "mean_regret": 0.05078947368421053,
+      "ci_low": 0.03130592105263157,
+      "ci_high": 0.07343421052631577
+    },
+    {
+      "policy": "fixed",
+      "budget": 0,
+      "mean_regret": 0.5447368421052632,
+      "ci_low": 0.4910328947368421,
+      "ci_high": 0.5979078947368421
+    },
+    {
+      "policy": "fixed",
+      "budget": 1,
+      "mean_regret": 0.5321052631578947,
+      "ci_low": 0.4681447368421052,
+      "ci_high": 0.5973815789473684
+    },
+    {
+      "policy": "fixed",
+      "budget": 2,
+      "mean_regret": 0.5252631578947369,
+      "ci_low": 0.46363157894736834,
+      "ci_high": 0.5923947368421052
+    },
+    {
+      "policy": "fixed",
+      "budget": 3,
+      "mean_regret": 0.49855263157894747,
+      "ci_low": 0.4420921052631579,
+      "ci_high": 0.5533026315789474
+    },
+    {
+      "policy": "fixed",
+      "budget": 4,
+      "mean_regret": 0.0875,
+      "ci_low": 0.057358552631578956,
+      "ci_high": 0.11961513157894736
+    },
+    {
+      "policy": "fixed",
+      "budget": 5,
+      "mean_regret": 0.05078947368421053,
+      "ci_low": 0.03130592105263157,
+      "ci_high": 0.07343421052631577
+    },
+    {
+      "policy": "random",
+      "budget": 0,
+      "mean_regret": 0.5447368421052632,
+      "ci_low": 0.4910328947368421,
+      "ci_high": 0.5979078947368421
+    },
+    {
+      "policy": "random",
+      "budget": 1,
+      "mean_regret": 0.44223684210526326,
+      "ci_low": 0.38826315789473687,
+      "ci_high": 0.5023848684210526
+    },
+    {
+      "policy": "random",
+      "budget": 2,
+      "mean_regret": 0.3398684210526316,
+      "ci_low": 0.2878881578947368,
+      "ci_high": 0.3920032894736842
+    },
+    {
+      "policy": "random",
+      "budget": 3,
+      "mean_regret": 0.2231578947368421,
+      "ci_low": 0.1800756578947369,
+      "ci_high": 0.27212499999999995
+    },
+    {
+      "policy": "random",
+      "budget": 4,
+      "mean_regret": 0.18881578947368421,
+      "ci_low": 0.14576973684210529,
+      "ci_high": 0.23093092105263158
+    },
+    {
+      "policy": "random",
+      "budget": 5,
+      "mean_regret": 0.05078947368421053,
+      "ci_low": 0.03130592105263157,
+      "ci_high": 0.07343421052631577
+    },
+    {
+      "policy": "none",
+      "budget": 0,
+      "mean_regret": 0.5447368421052632,
+      "ci_low": 0.4910328947368421,
+      "ci_high": 0.5979078947368421
+    },
+    {
+      "policy": "none",
+      "budget": 1,
+      "mean_regret": 0.5447368421052632,
+      "ci_low": 0.4910328947368421,
+      "ci_high": 0.5979078947368421
+    },
+    {
+      "policy": "none",
+      "budget": 2,
+      "mean_regret": 0.5447368421052632,
+      "ci_low": 0.4910328947368421,
+      "ci_high": 0.5979078947368421
+    },
+    {
+      "policy": "none",
+      "budget": 3,
+      "mean_regret": 0.5447368421052632,
+      "ci_low": 0.4910328947368421,
+      "ci_high": 0.5979078947368421
+    },
+    {
+      "policy": "none",
+      "budget": 4,
+      "mean_regret": 0.5447368421052632,
+      "ci_low": 0.4910328947368421,
+      "ci_high": 0.5979078947368421
+    },
+    {
+      "policy": "none",
+      "budget": 5,
+      "mean_regret": 0.5447368421052632,
+      "ci_low": 0.4910328947368421,
+      "ci_high": 0.5979078947368421
+    }
+  ],
+  "stress_tests": [
+    {
+      "name": "in_distribution",
+      "description": "New profiles from training utility families; one unknown-answer variant per profile.",
+      "results": [
+        {
+          "policy": "learned",
+          "mean_regret": 0.11742424242424243,
+          "ci_low": 0.06210227272727273,
+          "ci_high": 0.18106060606060606,
+          "profiles": 33,
+          "available": true
+        },
+        {
+          "policy": "analytic",
+          "mean_regret": 0.11742424242424243,
+          "ci_low": 0.06210227272727273,
+          "ci_high": 0.18106060606060606,
+          "profiles": 33,
+          "available": true
+        },
+        {
+          "policy": "information_gain",
+          "mean_regret": 0.10303030303030303,
+          "ci_low": 0.051515151515151514,
+          "ci_high": 0.15839015151515146,
+          "profiles": 33,
+          "available": true
+        },
+        {
+          "policy": "fixed",
+          "mean_regret": 0.5045454545454545,
+          "ci_low": 0.41655303030303026,
+          "ci_high": 0.5955018939393939,
+          "profiles": 33,
+          "available": true
+        },
+        {
+          "policy": "random",
+          "mean_regret": 0.2371212121212121,
+          "ci_low": 0.16170454545454543,
+          "ci_high": 0.31631628787878785,
+          "profiles": 33,
+          "available": true
+        },
+        {
+          "policy": "none",
+          "mean_regret": 0.5696969696969696,
+          "ci_low": 0.47045454545454546,
+          "ci_high": 0.6591098484848484,
+          "profiles": 33,
+          "available": true
+        }
+      ]
+    },
+    {
+      "name": "preference_shift",
+      "description": "Held-out interaction utility family, absent from model fitting and validation.",
+      "results": [
+        {
+          "policy": "learned",
+          "mean_regret": 0.16612903225806452,
+          "ci_low": 0.07578629032258064,
+          "ci_high": 0.27098790322580646,
+          "profiles": 31,
+          "available": true
+        },
+        {
+          "policy": "analytic",
+          "mean_regret": 0.16612903225806452,
+          "ci_low": 0.07578629032258064,
+          "ci_high": 0.27098790322580646,
+          "profiles": 31,
+          "available": true
+        },
+        {
+          "policy": "information_gain",
+          "mean_regret": 0.15161290322580645,
+          "ci_low": 0.0661290322580645,
+          "ci_high": 0.2588709677419355,
+          "profiles": 31,
+          "available": true
+        },
+        {
+          "policy": "fixed",
+          "mean_regret": 0.48991935483870974,
+          "ci_low": 0.39433467741935496,
+          "ci_high": 0.5709778225806452,
+          "profiles": 31,
+          "available": true
+        },
+        {
+          "policy": "random",
+          "mean_regret": 0.2512096774193549,
+          "ci_low": 0.1737600806451613,
+          "ci_high": 0.3367237903225806,
+          "profiles": 31,
+          "available": true
+        },
+        {
+          "policy": "none",
+          "mean_regret": 0.5120967741935485,
+          "ci_low": 0.4064516129032259,
+          "ci_high": 0.6177620967741936,
+          "profiles": 31,
+          "available": true
+        }
+      ]
+    },
+    {
+      "name": "answer_noise",
+      "description": "Held-out wrong-hardware response mechanism plus unknown goal; truthful and noisy variants share a group.",
+      "results": [
+        {
+          "policy": "learned",
+          "mean_regret": 0.06733870967741937,
+          "ci_low": 0.024193548387096774,
+          "ci_high": 0.1165524193548387,
+          "profiles": 31,
+          "available": true
+        },
+        {
+          "policy": "analytic",
+          "mean_regret": 0.06975806451612904,
+          "ci_low": 0.02659274193548387,
+          "ci_high": 0.11737903225806447,
+          "profiles": 31,
+          "available": true
+        },
+        {
+          "policy": "information_gain",
+          "mean_regret": 0.07500000000000001,
+          "ci_low": 0.025806451612903226,
+          "ci_high": 0.12580645161290321,
+          "profiles": 31,
+          "available": true
+        },
+        {
+          "policy": "fixed",
+          "mean_regret": 0.5008064516129032,
+          "ci_low": 0.4015725806451612,
+          "ci_high": 0.5976008064516128,
+          "profiles": 31,
+          "available": true
+        },
+        {
+          "policy": "random",
+          "mean_regret": 0.180241935483871,
+          "ci_low": 0.10443548387096775,
+          "ci_high": 0.2613004032258065,
+          "profiles": 31,
+          "available": true
+        },
+        {
+          "policy": "none",
+          "mean_regret": 0.5508064516129031,
+          "ci_low": 0.47080645161290313,
+          "ci_high": 0.6330645161290321,
+          "profiles": 31,
+          "available": true
+        }
+      ]
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "baseline": "analytic",
+      "learned_minus_baseline": -0.0007894736842105264,
+      "ci_low": -0.002368421052631579,
+      "ci_high": 0.0,
+      "interpretation": "Negative favors learned; paired by base profile, not dialogue turn."
+    },
+    {
+      "baseline": "information_gain",
+      "learned_minus_baseline": 0.007236842105263155,
+      "ci_low": -0.010289473684210527,
+      "ci_high": 0.026319078947368416,
+      "interpretation": "Negative favors learned; paired by base profile, not dialogue turn."
+    },
+    {
+      "baseline": "fixed",
+      "learned_minus_baseline": -0.3815789473684211,
+      "ci_low": -0.4542565789473684,
+      "ci_high": -0.3190394736842106,
+      "interpretation": "Negative favors learned; paired by base profile, not dialogue turn."
+    },
+    {
+      "baseline": "random",
+      "learned_minus_baseline": -0.10618421052631581,
+      "ci_low": -0.14990789473684213,
+      "ci_high": -0.06998355263157896,
+      "interpretation": "Negative favors learned; paired by base profile, not dialogue turn."
+    },
+    {
+      "baseline": "none",
+      "learned_minus_baseline": -0.4277631578947368,
+      "ci_low": -0.48185855263157884,
+      "ci_high": -0.3759144736842105,
+      "interpretation": "Negative favors learned; paired by base profile, not dialogue turn."
+    }
+  ],
+  "paired_total_loss_comparisons": [
+    {
+      "baseline": "analytic",
+      "learned_minus_baseline": -0.00018947368421052622,
+      "ci_low": -0.0017684210526315793,
+      "ci_high": 0.0007894736842105267,
+      "interpretation": "Regret plus 0.006 per question, feasible profiles only; negative favors learned."
+    },
+    {
+      "baseline": "information_gain",
+      "learned_minus_baseline": -0.0023631578947368487,
+      "ci_low": -0.020298289473684217,
+      "ci_high": 0.016750131578947364,
+      "interpretation": "Regret plus 0.006 per question, feasible profiles only; negative favors learned."
+    },
+    {
+      "baseline": "fixed",
+      "learned_minus_baseline": -0.3911789473684211,
+      "ci_low": -0.4648638157894738,
+      "ci_high": -0.3279305263157895,
+      "interpretation": "Regret plus 0.006 per question, feasible profiles only; negative favors learned."
+    },
+    {
+      "baseline": "random",
+      "learned_minus_baseline": -0.11578421052631578,
+      "ci_low": -0.1595521052631579,
+      "ci_high": -0.07888921052631581,
+      "interpretation": "Regret plus 0.006 per question, feasible profiles only; negative favors learned."
+    },
+    {
+      "baseline": "none",
+      "learned_minus_baseline": -0.41936315789473677,
+      "ci_low": -0.47429894736842093,
+      "ci_high": -0.3672855263157894,
+      "interpretation": "Regret plus 0.006 per question, feasible profiles only; negative favors learned."
+    }
+  ],
+  "performance_slices": [
+    {
+      "attribute": "hardware",
+      "value": "cpu",
+      "results": [
+        {
+          "policy": "learned",
+          "profiles": 35,
+          "mean_regret": 0.13249999999999998,
+          "ci_low": 0.06713392857142857,
+          "ci_high": 0.19859821428571425,
+          "available": true
+        },
+        {
+          "policy": "analytic",
+          "profiles": 35,
+          "mean_regret": 0.13249999999999998,
+          "ci_low": 0.06713392857142857,
+          "ci_high": 0.19859821428571425,
+          "available": true
+        },
+        {
+          "policy": "information_gain",
+          "profiles": 35,
+          "mean_regret": 0.10999999999999999,
+          "ci_low": 0.044982142857142866,
+          "ci_high": 0.18144642857142856,
+          "available": true
+        },
+        {
+          "policy": "fixed",
+          "profiles": 35,
+          "mean_regret": 0.48214285714285704,
+          "ci_low": 0.38962499999999994,
+          "ci_high": 0.5700535714285713,
+          "available": true
+        },
+        {
+          "policy": "random",
+          "profiles": 35,
+          "mean_regret": 0.2107142857142857,
+          "ci_low": 0.14029464285714283,
+          "ci_high": 0.2935892857142857,
+          "available": true
+        },
+        {
+          "policy": "none",
+          "profiles": 35,
+          "mean_regret": 0.5321428571428571,
+          "ci_low": 0.4378035714285714,
+          "ci_high": 0.6178750000000001,
+          "available": true
+        }
+      ]
+    },
+    {
+      "attribute": "hardware",
+      "value": "local_gpu",
+      "results": [
+        {
+          "policy": "learned",
+          "profiles": 27,
+          "mean_regret": 0.11851851851851852,
+          "ci_low": 0.044375000000000005,
+          "ci_high": 0.21581018518518513,
+          "available": true
+        },
+        {
+          "policy": "analytic",
+          "profiles": 27,
+          "mean_regret": 0.11851851851851852,
+          "ci_low": 0.044375000000000005,
+          "ci_high": 0.21581018518518513,
+          "available": true
+        },
+        {
+          "policy": "information_gain",
+          "profiles": 27,
+          "mean_regret": 0.1138888888888889,
+          "ci_low": 0.04627314814814815,
+          "ci_high": 0.1926851851851851,
+          "available": true
+        },
+        {
+          "policy": "fixed",
+          "profiles": 27,
+          "mean_regret": 0.5328703703703703,
+          "ci_low": 0.43653935185185183,
+          "ci_high": 0.6222222222222221,
+          "available": true
+        },
+        {
+          "policy": "random",
+          "profiles": 27,
+          "mean_regret": 0.2300925925925926,
+          "ci_low": 0.13231481481481483,
+          "ci_high": 0.33891203703703704,
+          "available": true
+        },
+        {
+          "policy": "none",
+          "profiles": 27,
+          "mean_regret": 0.5166666666666666,
+          "ci_low": 0.4074074074074075,
+          "ci_high": 0.6148379629629629,
+          "available": true
+        }
+      ]
+    },
+    {
+      "attribute": "hardware",
+      "value": "cloud_gpu",
+      "results": [
+        {
+          "policy": "learned",
+          "profiles": 33,
+          "mean_regret": 0.09924242424242426,
+          "ci_low": 0.04314393939393939,
+          "ci_high": 0.1682007575757576,
+          "available": true
+        },
+        {
+          "policy": "analytic",
+          "profiles": 33,
+          "mean_regret": 0.10151515151515153,
+          "ci_low": 0.04617424242424242,
+          "ci_high": 0.17047348484848482,
+          "available": true
+        },
+        {
+          "policy": "information_gain",
+          "profiles": 33,
+          "mean_regret": 0.10606060606060606,
+          "ci_low": 0.048465909090909094,
+          "ci_high": 0.17356060606060597,
+          "available": true
+        },
+        {
+          "policy": "fixed",
+          "profiles": 33,
+          "mean_regret": 0.4878787878787878,
+          "ci_low": 0.3915530303030303,
+          "ci_high": 0.5871212121212122,
+          "available": true
+        },
+        {
+          "policy": "random",
+          "profiles": 33,
+          "mean_regret": 0.23068181818181818,
+          "ci_low": 0.1586931818181818,
+          "ci_high": 0.30417613636363633,
+          "available": true
+        },
+        {
+          "policy": "none",
+          "profiles": 33,
+          "mean_regret": 0.5810606060606059,
+          "ci_low": 0.486344696969697,
+          "ci_high": 0.668939393939394,
+          "available": true
+        }
+      ]
+    },
+    {
+      "attribute": "experience",
+      "value": "beginner",
+      "results": [
+        {
+          "policy": "learned",
+          "profiles": 33,
+          "mean_regret": 0.02651515151515151,
+          "ci_low": 0.0007575757575757566,
+          "ci_high": 0.05683712121212119,
+          "available": true
+        },
+        {
+          "policy": "analytic",
+          "profiles": 33,
+          "mean_regret": 0.028787878787878786,
+          "ci_low": 0.0030303030303030294,
+          "ci_high": 0.05909090909090908,
+          "available": true
+        },
+        {
+          "policy": "information_gain",
+          "profiles": 33,
+          "mean_regret": 0.015909090909090907,
+          "ci_low": 0.0,
+          "ci_high": 0.04090909090909091,
+          "available": true
+        },
+        {
+          "policy": "fixed",
+          "profiles": 33,
+          "mean_regret": 0.4893939393939393,
+          "ci_low": 0.41202651515151517,
+          "ci_high": 0.5643939393939394,
+          "available": true
+        },
+        {
+          "policy": "random",
+          "profiles": 33,
+          "mean_regret": 0.12424242424242424,
+          "ci_low": 0.05602272727272726,
+          "ci_high": 0.20382575757575752,
+          "available": true
+        },
+        {
+          "policy": "none",
+          "profiles": 33,
+          "mean_regret": 0.4727272727272727,
+          "ci_low": 0.3939393939393939,
+          "ci_high": 0.5485227272727272,
+          "available": true
+        }
+      ]
+    },
+    {
+      "attribute": "experience",
+      "value": "intermediate",
+      "results": [
+        {
+          "policy": "learned",
+          "profiles": 28,
+          "mean_regret": 0.1263392857142857,
+          "ci_low": 0.05892857142857144,
+          "ci_high": 0.19108258928571428,
+          "available": true
+        },
+        {
+          "policy": "analytic",
+          "profiles": 28,
+          "mean_regret": 0.1263392857142857,
+          "ci_low": 0.05892857142857144,
+          "ci_high": 0.19108258928571428,
+          "available": true
+        },
+        {
+          "policy": "information_gain",
+          "profiles": 28,
+          "mean_regret": 0.11964285714285715,
+          "ci_low": 0.054419642857142854,
+          "ci_high": 0.1910714285714286,
+          "available": true
+        },
+        {
+          "policy": "fixed",
+          "profiles": 28,
+          "mean_regret": 0.4946428571428572,
+          "ci_low": 0.3910044642857143,
+          "ci_high": 0.5933928571428572,
+          "available": true
+        },
+        {
+          "policy": "random",
+          "profiles": 28,
+          "mean_regret": 0.22991071428571427,
+          "ci_low": 0.15177455357142855,
+          "ci_high": 0.3053571428571428,
+          "available": true
+        },
+        {
+          "policy": "none",
+          "profiles": 28,
+          "mean_regret": 0.5633928571428571,
+          "ci_low": 0.46421875000000007,
+          "ci_high": 0.6536383928571428,
+          "available": true
+        }
+      ]
+    },
+    {
+      "attribute": "experience",
+      "value": "advanced",
+      "results": [
+        {
+          "policy": "learned",
+          "profiles": 34,
+          "mean_regret": 0.19705882352941173,
+          "ci_low": 0.11542279411764705,
+          "ci_high": 0.2801654411764705,
+          "available": true
+        },
+        {
+          "policy": "analytic",
+          "profiles": 34,
+          "mean_regret": 0.19705882352941173,
+          "ci_low": 0.11542279411764705,
+          "ci_high": 0.2801654411764705,
+          "available": true
+        },
+        {
+          "policy": "information_gain",
+          "profiles": 34,
+          "mean_regret": 0.1926470588235294,
+          "ci_low": 0.11170955882352941,
+          "ci_high": 0.28240808823529406,
+          "available": true
+        },
+        {
+          "policy": "fixed",
+          "profiles": 34,
+          "mean_regret": 0.5106617647058824,
+          "ci_low": 0.4021875000000001,
+          "ci_high": 0.6092647058823529,
+          "available": true
+        },
+        {
+          "policy": "random",
+          "profiles": 34,
+          "mean_regret": 0.31360294117647064,
+          "ci_low": 0.2345496323529412,
+          "ci_high": 0.39673713235294117,
+          "available": true
+        },
+        {
+          "policy": "none",
+          "profiles": 34,
+          "mean_regret": 0.599264705882353,
+          "ci_low": 0.5029411764705882,
+          "ci_high": 0.6933823529411766,
+          "available": true
+        }
+      ]
+    },
+    {
+      "attribute": "domain",
+      "value": "tabular",
+      "results": [
+        {
+          "policy": "learned",
+          "profiles": 17,
+          "mean_regret": 0.13308823529411765,
+          "ci_low": 0.05880514705882353,
+          "ci_high": 0.21325367647058818,
+          "available": true
+        },
+        {
+          "policy": "analytic",
+          "profiles": 17,
+          "mean_regret": 0.13749999999999998,
+          "ci_low": 0.06323529411764707,
+          "ci_high": 0.21549632352941173,
+          "available": true
+        },
+        {
+          "policy": "information_gain",
+          "profiles": 17,
+          "mean_regret": 0.08382352941176471,
+          "ci_low": 0.021948529411764714,
+          "ci_high": 0.15886029411764702,
+          "available": true
+        },
+        {
+          "policy": "fixed",
+          "profiles": 17,
+          "mean_regret": 0.20220588235294118,
+          "ci_low": 0.08970588235294118,
+          "ci_high": 0.3471139705882353,
+          "available": true
+        },
+        {
+          "policy": "random",
+          "profiles": 17,
+          "mean_regret": 0.11911764705882352,
+          "ci_low": 0.051470588235294115,
+          "ci_high": 0.19709558823529408,
+          "available": true
+        },
+        {
+          "policy": "none",
+          "profiles": 17,
+          "mean_regret": 0.16029411764705884,
+          "ci_low": 0.08231617647058824,
+          "ci_high": 0.245625,
+          "available": true
+        }
+      ]
+    },
+    {
+      "attribute": "domain",
+      "value": "language",
+      "results": [
+        {
+          "policy": "learned",
+          "profiles": 23,
+          "mean_regret": 0.12826086956521737,
+          "ci_low": 0.05105978260869564,
+          "ci_high": 0.19682065217391298,
+          "available": true
+        },
+        {
+          "policy": "analytic",
+          "profiles": 23,
+          "mean_regret": 0.12826086956521737,
+          "ci_low": 0.05105978260869564,
+          "ci_high": 0.19682065217391298,
+          "available": true
+        },
+        {
+          "policy": "information_gain",
+          "profiles": 23,
+          "mean_regret": 0.12826086956521737,
+          "ci_low": 0.05105978260869564,
+          "ci_high": 0.19682065217391298,
+          "available": true
+        },
+        {
+          "policy": "fixed",
+          "profiles": 23,
+          "mean_regret": 0.5652173913043478,
+          "ci_low": 0.48801630434782606,
+          "ci_high": 0.6456521739130434,
+          "available": true
+        },
+        {
+          "policy": "random",
+          "profiles": 23,
+          "mean_regret": 0.2369565217391304,
+          "ci_low": 0.1347690217391304,
+          "ci_high": 0.34736413043478254,
+          "available": true
+        },
+        {
+          "policy": "none",
+          "profiles": 23,
+          "mean_regret": 0.6108695652173912,
+          "ci_low": 0.5270652173913043,
+          "ci_high": 0.6913315217391305,
+          "available": true
+        }
+      ]
+    },
+    {
+      "attribute": "domain",
+      "value": "vision",
+      "results": [
+        {
+          "policy": "learned",
+          "profiles": 19,
+          "mean_regret": 0.1013157894736842,
+          "ci_low": 0.010394736842105269,
+          "ci_high": 0.20138157894736838,
+          "available": true
+        },
+        {
+          "policy": "analytic",
+          "profiles": 19,
+          "mean_regret": 0.1013157894736842,
+          "ci_low": 0.010394736842105269,
+          "ci_high": 0.20138157894736838,
+          "available": true
+        },
+        {
+          "policy": "information_gain",
+          "profiles": 19,
+          "mean_regret": 0.1013157894736842,
+          "ci_low": 0.010394736842105269,
+          "ci_high": 0.20138157894736838,
+          "available": true
+        },
+        {
+          "policy": "fixed",
+          "profiles": 19,
+          "mean_regret": 0.5276315789473685,
+          "ci_low": 0.41379934210526315,
+          "ci_high": 0.6296052631578947,
+          "available": true
+        },
+        {
+          "policy": "random",
+          "profiles": 19,
+          "mean_regret": 0.21973684210526315,
+          "ci_low": 0.11643092105263159,
+          "ci_high": 0.33356907894736837,
+          "available": true
+        },
+        {
+          "policy": "none",
+          "profiles": 19,
+          "mean_regret": 0.6710526315789472,
+          "ci_low": 0.6051973684210525,
+          "ci_high": 0.743421052631579,
+          "available": true
+        }
+      ]
+    },
+    {
+      "attribute": "domain",
+      "value": "systems",
+      "results": [
+        {
+          "policy": "learned",
+          "profiles": 19,
+          "mean_regret": 0.12894736842105264,
+          "ci_low": 0.036842105263157905,
+          "ci_high": 0.2513486842105263,
+          "available": true
+        },
+        {
+          "policy": "analytic",
+          "profiles": 19,
+          "mean_regret": 0.12894736842105264,
+          "ci_low": 0.036842105263157905,
+          "ci_high": 0.2513486842105263,
+          "available": true
+        },
+        {
+          "policy": "information_gain",
+          "profiles": 19,
+          "mean_regret": 0.1368421052631579,
+          "ci_low": 0.04200657894736842,
+          "ci_high": 0.2605592105263158,
+          "available": true
+        },
+        {
+          "policy": "fixed",
+          "profiles": 19,
+          "mean_regret": 0.6361842105263157,
+          "ci_low": 0.5565624999999998,
+          "ci_high": 0.7059374999999999,
+          "available": true
+        },
+        {
+          "policy": "random",
+          "profiles": 19,
+          "mean_regret": 0.28421052631578947,
+          "ci_low": 0.1651151315789474,
+          "ci_high": 0.4072532894736842,
+          "available": true
+        },
+        {
+          "policy": "none",
+          "profiles": 19,
+          "mean_regret": 0.6197368421052631,
+          "ci_low": 0.5367763157894737,
+          "ci_high": 0.7092434210526315,
+          "available": true
+        }
+      ]
+    },
+    {
+      "attribute": "domain",
+      "value": "science",
+      "results": [
+        {
+          "policy": "learned",
+          "profiles": 17,
+          "mean_regret": 0.08970588235294118,
+          "ci_low": 0.016176470588235292,
+          "ci_high": 0.17944852941176467,
+          "available": true
+        },
+        {
+          "policy": "analytic",
+          "profiles": 17,
+          "mean_regret": 0.08970588235294118,
+          "ci_low": 0.016176470588235292,
+          "ci_high": 0.17944852941176467,
+          "available": true
+        },
+        {
+          "policy": "information_gain",
+          "profiles": 17,
+          "mean_regret": 0.08970588235294118,
+          "ci_low": 0.016176470588235292,
+          "ci_high": 0.17944852941176467,
+          "available": true
+        },
+        {
+          "policy": "fixed",
+          "profiles": 17,
+          "mean_regret": 0.5183823529411765,
+          "ci_low": 0.3866544117647059,
+          "ci_high": 0.6434007352941178,
+          "available": true
+        },
+        {
+          "policy": "random",
+          "profiles": 17,
+          "mean_regret": 0.24411764705882355,
+          "ci_low": 0.14262867647058822,
+          "ci_high": 0.35522058823529407,
+          "available": true
+        },
+        {
+          "policy": "none",
+          "profiles": 17,
+          "mean_regret": 0.6147058823529412,
+          "ci_low": 0.5382352941176471,
+          "ci_high": 0.7014705882352942,
+          "available": true
+        }
+      ]
+    }
+  ],
+  "evaluation_records": 240,
+  "base_profiles": 120,
+  "feasible_base_profiles": 95,
+  "bootstrap": {
+    "unit": "base profile",
+    "replicates": 600,
+    "seed": 997,
+    "interval": "percentile 95%"
+  },
+  "notes": [
+    "All numbers are computed from actual frozen-model runs, not illustrations.",
+    "Training labels use one-step realized utility changes; this is not a learned multi-step optimal controller.",
+    "Ranking and the analytic baseline use a uniform finite prior that can be misspecified under shift.",
+    "A 0.006 synthetic cost governs ASK/STOP; it is not measured human time or fatigue.",
+    "Total loss is regret plus question cost on feasible profiles. mean_questions uses all profiles; mean_questions_feasible uses the regret denominator.",
+    "No-feasible profiles are excluded from mean regret and reported separately by detection and constraint-violation rates.",
+    "The utility target does not independently reward discovering no-feasible outcomes; their utilities are all zero.",
+    "The held-out interaction family is a narrow synthetic shift that often preserves the same optimal briefs.",
+    "Paired intervals group both answer variants of a person-like synthetic profile; no real participants were recruited.",
+    "No external LLM was benchmarked, so superiority to an AI chat is unproven.",
+    "Unknown and incorrect hardware replies are simulated. Skip, indifferent and revision behavior are functional tests, not efficacy benchmarks.",
+    "Slices use synthetic hardware, experience and domain, not protected attributes. No demographic data or demographic fairness claim is made."
+  ]
+}

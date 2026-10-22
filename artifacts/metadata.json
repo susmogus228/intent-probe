@@ -1,0 +1,199 @@
+{
+  "model": {
+    "version": "intentprobe-question-value-1.0",
+    "estimator": "ExtraTreesRegressor",
+    "trained_at": "2026-10-22T11:32:36.136966+00:00",
+    "training_rows": 7927,
+    "feature_names": [
+      "time=weekend",
+      "time=week",
+      "time=month",
+      "time=quarter",
+      "time=unknown",
+      "time:unobserved",
+      "time:skipped",
+      "hardware=cpu",
+      "hardware=local_gpu",
+      "hardware=cloud_gpu",
+      "hardware=unknown",
+      "hardware:unobserved",
+      "hardware:skipped",
+      "experience=beginner",
+      "experience=intermediate",
+      "experience=advanced",
+      "experience=unknown",
+      "experience:unobserved",
+      "experience:skipped",
+      "domain=tabular",
+      "domain=language",
+      "domain=vision",
+      "domain=systems",
+      "domain=science",
+      "domain=unknown",
+      "domain=indifferent",
+      "domain:unobserved",
+      "domain:skipped",
+      "goal=practical",
+      "goal=research",
+      "goal=learning",
+      "goal=unknown",
+      "goal=indifferent",
+      "goal:unobserved",
+      "goal:skipped",
+      "candidate=time",
+      "candidate=hardware",
+      "candidate=experience",
+      "candidate=domain",
+      "candidate=goal",
+      "remaining_budget",
+      "observed_count",
+      "available_count",
+      "feasible_fraction",
+      "best_utility",
+      "second_utility",
+      "utility_gap",
+      "score_mean",
+      "score_std",
+      "candidate_answer_entropy"
+    ],
+    "artifact_sha256": "d1f76dcadd0b20c5f60406c50afd950c5ae1638a3c52cf7bce98b78d3275afa3",
+    "validation_mae": 0.1453790487548629,
+    "constant_baseline_validation_mae": 0.17887265354210327,
+    "validation_rows": 2152,
+    "training_command": "python -m intentprobe.ml.train --output artifacts",
+    "hyperparameters": {
+      "bootstrap": false,
+      "ccp_alpha": 0.0,
+      "criterion": "squared_error",
+      "max_depth": 15,
+      "max_features": 1.0,
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 8,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 80,
+      "n_jobs": 1,
+      "oob_score": false,
+      "random_state": 42,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "top_features": [
+      {
+        "name": "candidate=domain",
+        "importance": 0.5830293476399778
+      },
+      {
+        "name": "candidate_answer_entropy",
+        "importance": 0.12537610764007198
+      },
+      {
+        "name": "remaining_budget",
+        "importance": 0.03513574123973175
+      },
+      {
+        "name": "candidate=goal",
+        "importance": 0.01963891667071038
+      },
+      {
+        "name": "utility_gap",
+        "importance": 0.01472151426870878
+      },
+      {
+        "name": "observed_count",
+        "importance": 0.014470875865875905
+      },
+      {
+        "name": "score_mean",
+        "importance": 0.014190988266005542
+      },
+      {
+        "name": "time:unobserved",
+        "importance": 0.012566390771549966
+      },
+      {
+        "name": "available_count",
+        "importance": 0.012375807747543786
+      },
+      {
+        "name": "goal=research",
+        "importance": 0.011028914404071388
+      },
+      {
+        "name": "hardware:unobserved",
+        "importance": 0.01064161636253253
+      },
+      {
+        "name": "score_std",
+        "importance": 0.010570993249566929
+      },
+      {
+        "name": "goal=practical",
+        "importance": 0.009871811806350394
+      },
+      {
+        "name": "best_utility",
+        "importance": 0.008896528447774799
+      },
+      {
+        "name": "second_utility",
+        "importance": 0.00838391103454879
+      }
+    ],
+    "environment": {
+      "python": "3.11.15",
+      "scikit_learn": "1.9.1",
+      "numpy": "2.4.6",
+      "joblib": "1.6.0"
+    }
+  },
+  "dataset": {
+    "kind": "synthetic",
+    "train_profiles": 300,
+    "validation_profiles": 80,
+    "test_profiles": 120,
+    "split_seed": 42,
+    "generator_version": "project-preferences-1.1",
+    "splits_disjoint": true,
+    "catalog_sha256": "75a0912041811e8c6c087e1d1828eadb132bf1522a13eac3531b4c07fabf9572",
+    "records_sha256": "96585c13813d2bb379ee3efd5eaa675d982bff682c71b372f2201a67e6225195",
+    "test_records_sha256": "63d743b92e774e350071ba568f1f0f33d32867523729f858453459fdbfbe125f",
+    "manifest_sha256": "4d8e827f2a98938fe7359ec8a2bb56b90847226695d7600bf712898e978f6c31",
+    "conditions": [
+      "in_distribution",
+      "preference_shift",
+      "answer_noise"
+    ],
+    "limitations": [
+      "Controlled synthetic utilities and replies, not human preference data.",
+      "Fixed English questions and a hand-authored catalog of 20 project briefs.",
+      "Complete five-answer preference vectors are disjoint regardless of utility family; all response variants stay grouped. Partially observed feature states can recur.",
+      "Held-out interaction utilities and wrong-hardware replies test limited shifts, not unrestricted real-world generalization.",
+      "No protected attributes or demographic fairness evaluation; domain, hardware and experience slices are available."
+    ]
+  },
+  "protocol": {
+    "summary": "Learn a regression surrogate for one-step question value. Compare frozen policies with identical ranking, facts, catalog and budgets.",
+    "target": "Realized reduction in hidden synthetic recommendation regret after one answer, minus a 0.006 question cost. STOP has value zero.",
+    "feature_boundary": "Only observed categorical answers, skipped flags, candidate question, remaining budget and observed-state prior summaries. Hidden utilities are evaluator/label inputs only.",
+    "score_definition": "Expected synthetic utility on [0,1] under a uniform finite preference prior; never a correctness probability.",
+    "sources": [
+      {
+        "title": "Interactive Classification by Asking Informative Questions, ACL 2020",
+        "url": "https://aclanthology.org/2020.acl-main.237/"
+      },
+      {
+        "title": "PEPPER, EMNLP Findings 2025",
+        "url": "https://aclanthology.org/2025.findings-emnlp.1067/"
+      },
+      {
+        "title": "Clarify When Necessary, NAACL Findings 2025",
+        "url": "https://aclanthology.org/2025.findings-naacl.306/"
+      }
+    ],
+    "limitations": "A learned one-step approximation, not novel RL, human validation, or a universal intent detector. A matching file hash does not authenticate an untrusted pickle artifact."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "frozen_at": "2026-10-22T12:21:22.047663+00:00",
+  "frozen_before_fit": true,
+  "objective": {
+    "invalid_recommendation": 1.0,
+    "false_no_feasible": 1.0,
+    "question_cost": 0.006
+  },
+  "candidate_configs": [
+    {
+      "n_estimators": 80,
+      "max_depth": 18,
+      "min_samples_leaf": 3
+    },
+    {
+      "n_estimators": 120,
+      "max_depth": 22,
+      "min_samples_leaf": 2
+    }
+  ],
+  "states_per_profile": 12,
+  "fit_seed": 42,
+  "selection": "Choose the lowest validation raw constraint-aware loss plus question cost at budget three; MAE is secondary. Never select using development or final audit.",
+  "counts": {
+    "train": 300,
+    "validation": 80,
+    "development": 120,
+    "final_audit": 40
+  },
+  "source_records_sha256": "96585c13813d2bb379ee3efd5eaa675d982bff682c71b372f2201a67e6225195",
+  "final_audit_records_sha256": "90a8cc41cf93fa1d4e24a5a3822aded582aaf73fadaf3b37c95c38c50f384833",
+  "split_manifest_sha256": "d6bd97709877577a7348c3322822688621023a589fc0a943744d25e9472d70d5",
+  "audit_scope": "The last 40 unused vectors from the same finite synthetic lattice; small final audit, not external validation.",
+  "targets": {
+    "development_raw_all_case_violation_max": 0.05,
+    "guarded_recommendation_risk_max": 0.05,
+    "guarded_feasible_coverage_min": 0.8,
+    "no_feasible_detection_min": 0.95,
+    "false_no_feasible_rate_max": 0.05
+  }
+}
