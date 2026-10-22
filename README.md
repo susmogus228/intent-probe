@@ -1,5 +1,7 @@
 # IntentProbe
 
+[![Checks](https://github.com/susmogus228/intent-probe/actions/workflows/ci.yml/badge.svg)](https://github.com/susmogus228/intent-probe/actions/workflows/ci.yml)
+
 Learn which clarification question is worth asking before recommending a project.
 
 IntentProbe trains a compact question-value model, serves it through a local API, and compares it with fixed, random, information-gain and analytic policies. You can try the model, change an answer and inspect the resulting recommendations. The ML workbench exposes the training data, model artifact and held-out benchmark.

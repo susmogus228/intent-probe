@@ -2,7 +2,7 @@
 
 ## Current v2 result, 2026-10-22
 
-Scope: the approved constraint-aware model, explicit outcomes and synthetic audit. The user excluded human participants. No human study, external inference service, public deployment or Git push was performed.
+Scope: the approved constraint-aware model, explicit outcomes and synthetic audit. The user excluded human participants. No human study, external inference service or public application deployment was performed. The later source publication and hosted checks are documented in [PUBLICATION_REPORT.md](PUBLICATION_REPORT.md).
 
 | Check | Actual result |
 |---|---|
