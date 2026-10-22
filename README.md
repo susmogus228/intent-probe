@@ -90,9 +90,10 @@ Zero observed guarded errors does not certify a population risk below 5%. Forty 
 
 ## Checks
 
-From the project root:
+From the project root, create the ignored scratch directory before using a nested pytest temporary path. On macOS/Linux, use `mkdir -p work`.
 
 ```powershell
+New-Item -ItemType Directory -Force work | Out-Null
 .\.venv\Scripts\python.exe -m pytest -q --basetemp=work/pytest-check
 Set-Location frontend
 npm run typecheck

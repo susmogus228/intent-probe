@@ -29,7 +29,9 @@ jobs:
           .venv/bin/python -m pip install -r requirements.lock
           .venv/bin/python -m pip install --no-deps -e .
       - name: Check API, persistence and frozen ML artifacts
-        run: .venv/bin/python -m pytest -q --basetemp=work/pytest-ci
+        run: |
+          mkdir -p work
+          .venv/bin/python -m pytest -q --basetemp=work/pytest-ci
 
   frontend:
     name: Frontend production build
