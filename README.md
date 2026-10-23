@@ -1,3 +1,5 @@
+![IntentProbe: learning which clarification question to ask](docs/images/intentprobe-banner.png)
+
 # IntentProbe
 
 [![Checks](https://github.com/susmogus228/intent-probe/actions/workflows/ci.yml/badge.svg)](https://github.com/susmogus228/intent-probe/actions/workflows/ci.yml)

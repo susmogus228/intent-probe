@@ -3,6 +3,7 @@
 | Resource | Source | Use | Conditions / verification |
 |---|---|---|---|
 | Approved UI reference | User-approved generated option 3, docs/design/approved-workbench.png | Layout reference only | Generated in this chat; editable application uses HTML and React components |
+| IntentProbe repository banner | Built-in image_gen, generated and approved in this chat on 2026-10-23; docs/images/intentprobe-banner.png | Static README cover | Original generated artwork using the existing RouteLab portfolio cover as a style reference; 2172 x 724 PNG. The diagram is conceptual and contains no measured results. |
 | Clarification literature | Primary links in RESEARCH.md | Method and evaluation design | No paper text, third-party training dataset or implementation copied |
 | scikit-learn | https://scikit-learn.org/stable/ | Local regression model | BSD-3-Clause; exact installed version in requirements.lock and model metadata |
 | FastAPI | https://fastapi.tiangolo.com/ | API and OpenAPI schemas | MIT; exact version in requirements.lock |
